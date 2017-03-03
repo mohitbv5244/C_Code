@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int a, b, i, n;
+    printf("enter the number\n");
+    scanf("%d", &a);
+    int temp = a;
+    printf("count is %d", count);
+    for(i = 0; a > 0; i++)
+    {
+        int n = a % 10;
+        b = b * 10 + n;
+        a = a /10;
+    }
+    
+    printf("rev of %d is %d\n", a, b);
+    return 0;
+
+}
+
