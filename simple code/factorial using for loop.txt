@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c=1;
+    printf("enter the a:\n");
+    scanf("%d", &a);
+    for(b = a; b > 0; b--)
+    {
+     c = b * c;   
+    }
+    
+    printf("factorial of of %d is %d\n", a, c);
+    return 0;
+}
